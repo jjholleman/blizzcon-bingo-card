@@ -1,0 +1,49 @@
+    
+    body {
+      font-size: 18px;
+      color: #fff;
+      box-sizing: border-box;
+      text-transform: uppercase;
+    }
+    .card-container {
+    position: relative;
+    width: 975px;
+    display: block;
+    margin: 0 auto;
+    }
+    .card-background {
+    width: 975px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    }
+    .bingo-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 51rem;
+    height: 51rem;
+    z-index: 1000;
+    position: relative;
+    padding: 9.5rem 5rem 0;
+    }
+    .bingo-tile {
+    width: 8.19rem;
+    /* height: 9rem; */
+    padding: 2rem 1rem;
+    text-align: center;
+
+    }
+
+    .new-card-btn, .print-btn {
+    margin: 1em auto;
+    display: block;
+    font-size: 1.5rem;
+    }
+
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
