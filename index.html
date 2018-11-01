@@ -41,14 +41,30 @@
 
     }
 
+    .new-card-btn, .print-btn {
+    margin: 1em auto;
+    display: block;
+    font-size: 1.5rem;
+    }
+
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
+
   </style>
 </head>
 <body>
 <div class="card-container">
+  <button id="new_card_btn" class="new-card-btn no-print">Generate New Card</button>
+  <button id="print_btn" class="print-btn no-print">Print Card</button>
   <img class="card-background" src="blizzcon-bingo-card-blank.png">
   <div id="bingo_card" class="bingo-card"></div>
 </div>
 <script type="text/javascript">
+  var new_card_btn = document.getElementById('new_card_btn');
+  var print_btn = document.getElementById('print_btn');
   var bingo_tile_arr = ['waw what a year its been', 'ion\'s devious grin', 'new zone: nazjatar', 'personal ship', 'classic news in opening ceremony', 'gilneas warfront', 'calia menethil', 'moar heritage armor', 'genn greymayne cinematic', 'sethrak allied race', 'azshara raid', 'vulpera allied race', 'jesse cox cosplaying as jaina', 'moar zappy boi', 'feature trailer feat. saurfang', 'under- water naga invasion', 'worgen & goblin models', 'mecha gnome allied race', 'belluar\'s bloodlust sated... for now', 'diablo tabletop rpg', 'moar island excursions', 'barrens warfront', 'morally grey', '8.3 micdrop moment: n\'zoth'];
   function shuffle(a) {
     var j, x, i;
@@ -77,10 +93,27 @@
     }
   }
 
+  function generate_new_card() {
+    bingo_card.innerHTML = '';
+    shuffle(bingo_tile_arr);
+    populate_card(bingo_tile_arr, 'bingo_card');
+  }
+
   document.addEventListener("DOMContentLoaded", function(){
     shuffle(bingo_tile_arr);
     populate_card(bingo_tile_arr, 'bingo_card');
   });
+
+  new_card_btn.addEventListener("click", function( event ) {
+    generate_new_card();
+    console.log('button was clicked');
+  }, false);
+
+  print_btn.addEventListener("click", function( event ){
+    window.print();
+    return false;
+  });
+
 </script>
 </body>
 </html>
