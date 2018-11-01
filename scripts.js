@@ -22,7 +22,13 @@ var bingo_tile_arr = ['waw what a year its been',
   'moar island excursions',
   'barrens warfront',
   'morally grey',
-  '8.3 micdrop moment: n\'zoth'];
+  '8.3 micdrop moment: n\'zoth',
+  'Trivial ability taken off GCD',
+  'We can\'t wait to show you...',
+  'It\'s not the old gods after all... or is it!?',
+  'New Exciting things for professions',
+  'New Island expedition drops nobody will ever see'
+  ];
 
 function shuffle(a) {
   var j, x, i;
