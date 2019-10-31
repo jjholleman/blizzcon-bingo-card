@@ -49,6 +49,7 @@ var bingo_tile_arr = [
    "Tyrande Becomes Evil",
    "New Hero Class",
    "Blizzard Subscription",
+   "Level squish",
   ];
 
 function shuffle(a) {
