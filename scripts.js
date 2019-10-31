@@ -47,6 +47,7 @@ var bingo_tile_arr = [
   "Pet battle mobile game",
   "New artifact weapon",
    "Tyrande Becomes Evil",
+   "New Hero Class",
   ];
 
 function shuffle(a) {
