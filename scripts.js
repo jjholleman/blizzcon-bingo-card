@@ -48,7 +48,7 @@ var bingo_tile_arr = [
   "New artifact weapon",
    "Tyrande Becomes Evil",
    "New Hero Class",
-   "Blizzard Game Subscription Pass",
+   "Blizzard Subscription",
   ];
 
 function shuffle(a) {
