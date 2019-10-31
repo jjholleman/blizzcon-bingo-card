@@ -46,6 +46,7 @@ var bingo_tile_arr = [
   "Chris Metzen",
   "Pet battle mobile game",
   "New artifact weapon",
+   "Tyrande Becomes Evil",
   ];
 
 function shuffle(a) {
