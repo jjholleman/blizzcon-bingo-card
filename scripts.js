@@ -1,11 +1,11 @@
 var new_card_btn = document.getElementById('new_card_btn');
 var print_btn = document.getElementById('print_btn');
 var bingo_tile_arr = [
-//   'waw what a year its been', 
-//   'ion\'s devious grin',
+   'waw what a year its been', 
+   'ion\'s devious grin',
 //   'new zone: nazjatar',
 //   'personal ship',
-//   'classic news in opening ceremony',
+   'classic news in opening ceremony',
 //   'gilneas warfront', 'calia menethil',
 //   'moar heritage armor',
 //   'genn greymayne cinematic',
@@ -22,10 +22,10 @@ var bingo_tile_arr = [
 //   'diablo tabletop rpg',
 //   'moar island excursions',
 //   'barrens warfront',
-//   'morally grey',
+   'morally grey',
 //   '8.3 micdrop moment: n\'zoth',
 //   'Trivial ability taken off GCD',
-//   'We can\'t wait to show you...',
+  'We can\'t wait to show you...',
 //   'It\'s not the old gods after all... or is it!?',
 //   'New Exciting things for professions',
 //   'New Island expedition drops nobody will ever see'
@@ -42,7 +42,10 @@ var bingo_tile_arr = [
   "FREE HONGKONG",
   "Faction merge",
   "Bwonsamdi's Boss",
-  "Jaina <3 Thrall"
+  "Jaina <3 Thrall",
+  "Chris Metzen",
+  "Pet battle mobile game",
+  "New artifact weapon",
   ];
 
 function shuffle(a) {
