@@ -14,7 +14,7 @@ var bingo_tile_arr = [
   "Dark Rangers",
   "Profession reworks",
   "Timewalking",
-  "Calia Menethil",
+  "Calia new Forsaken Leader",
   "New talent system",
   "FREE HONGKONG",
   "Faction merge",
