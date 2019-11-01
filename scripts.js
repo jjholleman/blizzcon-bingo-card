@@ -36,7 +36,8 @@ var bingo_tile_arr = [
    "WORLD PREMIERE",
    "Blizzard franchise tv show/movie",
    "Diablo Druid class",
-   "WC3 Reforged release date"
+   "WC3 Reforged release date",
+   "New DK races"
   ];
 
 function shuffle(a) {
