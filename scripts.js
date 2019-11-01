@@ -30,9 +30,9 @@ var bingo_tile_arr = [
    "Wyaty Cheng announces Diablo",
    "LGBTQ Overwatch Hero",
    "Red Shirt Guy",
-   '"Available Now!"'
+   "\"Available Now!\""
    "Goblin cannon fired",
-   '"Expanding to other platforms like Mobile"'
+   "\"Expanding to other platforms like Mobile\""
   ];
 
 function shuffle(a) {
