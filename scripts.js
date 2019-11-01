@@ -34,6 +34,7 @@ var bingo_tile_arr = [
    "Goblin cannon fired",
    "\"Expanding to other platforms like Mobile\"",
    "WORLD PREMIERE",
+   "Blizzard franchise tv show/movie"
   ];
 
 function shuffle(a) {
