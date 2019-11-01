@@ -38,7 +38,17 @@ var bingo_tile_arr = [
    "Diablo Druid class",
    "WC3 Reforged release date",
    "New DK races",
-   "Nothing new for PvP players"
+   "Nothing new for PvP players",
+   "introduction Mike Ybarra on stage",
+   "Player/Guild Housing",
+   "Starcraft AI",
+   "Activision Game mentioned",
+   "\"We hear you, We\'ve been listening\"",
+   "Ghost ships",
+   "Preorder bonusses",
+   "Another mission table",
+   "AWC/MDI awkward prize pool moment",
+   "Winnie the Pooh \"cosplay\""
   ];
 
 function shuffle(a) {
