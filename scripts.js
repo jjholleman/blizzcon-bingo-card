@@ -32,7 +32,8 @@ var bingo_tile_arr = [
    "Red Shirt Guy",
    "\"Available Now!\"",
    "Goblin cannon fired",
-   "\"Expanding to other platforms like Mobile\""
+   "\"Expanding to other platforms like Mobile\"",
+   "WORLD PREMIERE",
   ];
 
 function shuffle(a) {
