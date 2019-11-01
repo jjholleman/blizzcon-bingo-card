@@ -1,12 +1,12 @@
 var new_card_btn = document.getElementById('new_card_btn');
 var print_btn = document.getElementById('print_btn');
 var bingo_tile_arr = [
-   'waw what a year its been', 
+   "\"waw what a year its been\"", 
    'ion\'s devious grin',
    'classic news in opening ceremony',
    'moar heritage armor',
    'morally grey',
-   'We can\'t wait to show you...',
+   "\"We can\'t wait to show you...\"",
   "World of Warcraft: Shadowlands",
   "Overwatch 2",
   "Lich King is Friendly",
@@ -27,7 +27,7 @@ var bingo_tile_arr = [
    "New Hero Class",
    "Blizzard Subscription",
    "Level squish",
-   "Wyaty Cheng announces Diablo",
+   "Wyatt Cheng announces Diablo",
    "LGBTQ Overwatch Hero",
    "Red Shirt Guy",
    "\"Available Now!\"",
