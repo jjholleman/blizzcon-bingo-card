@@ -3,33 +3,10 @@ var print_btn = document.getElementById('print_btn');
 var bingo_tile_arr = [
    'waw what a year its been', 
    'ion\'s devious grin',
-//   'new zone: nazjatar',
-//   'personal ship',
    'classic news in opening ceremony',
-//   'gilneas warfront', 'calia menethil',
-//   'moar heritage armor',
-//   'genn greymayne cinematic',
-//   'sethrak allied race',
-//   'azshara raid',
-//   'vulpera allied race',
-//   'jesse cox cosplaying as jaina',
-//   'moar zappy boi',
-//   'feature trailer feat. saurfang',
-//   'under- water naga invasion',
-//   'worgen & goblin models',
-//   'mecha gnome allied race',
-//   'belluar\'s bloodlust sated... for now',
-//   'diablo tabletop rpg',
-//   'moar island excursions',
-//   'barrens warfront',
+   'moar heritage armor',
    'morally grey',
-//   '8.3 micdrop moment: n\'zoth',
-//   'Trivial ability taken off GCD',
-  'We can\'t wait to show you...',
-//   'It\'s not the old gods after all... or is it!?',
-//   'New Exciting things for professions',
-//   'New Island expedition drops nobody will ever see'
-  "Diablo IV announced",
+   'We can\'t wait to show you...',
   "World of Warcraft: Shadowlands",
   "Overwatch 2",
   "Lich King is Friendly",
@@ -50,6 +27,12 @@ var bingo_tile_arr = [
    "New Hero Class",
    "Blizzard Subscription",
    "Level squish",
+   "Wyaty Cheng announces Diablo",
+   "LGBTQ Overwatch Hero",
+   "Red Shirt Guy",
+   '"Available Now!"'
+   "Goblin cannon fired",
+   '"Expanding to other platforms like Mobile"'
   ];
 
 function shuffle(a) {
